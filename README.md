@@ -7,5 +7,5 @@ This collection is strongly biases toward papers related to Earth system science
 
 Note that `abbrev.bib` is a special file containing journal name abbreviations. It is a lookup table for variables used the `journal = ` tag in most of the BibTeX files contained here.
 
-Note that `link\_doi.bib` is a special file that hyperlinks a doi if your LaTeX/BibTeX package does not already provide this functionality.
+Note that `link_doi.bib` is a special file that hyperlinks a doi if your LaTeX/BibTeX package does not already provide this functionality.
 
