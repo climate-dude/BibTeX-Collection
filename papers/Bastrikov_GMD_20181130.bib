@@ -1,0 +1,13 @@
+@Article{Bastrikov_GMD_20181130,
+ author		= {Vladislav Bastrikov and Natasha MacBean and C{\'{e}}dric Bacour and Diego Santaren and Sylvain Kuppel and Philippe Peylin},
+ title		= {Land Surface Model Parameter Optimisation Using in situ Flux Data: Comparison of Gradient-based versus Random Search Algorithms (A Case Study Using {ORCHIDEE} v1.9.5.2)},
+ journal	= GMD,
+ volume		= 11,
+ number		= 12,
+ pages		= {4739--4754},
+ doi		= {10.5194/gmd-11-4739-2018},
+ day		= 30,
+ month		= nov,
+ year		= 2018,
+ abstract	= {Land surface models (LSMs), which form the land component of earth system models, rely on numerous processes for describing carbon, water and energy budgets, often associated with highly uncertain parameters. Data assimilation (DA) is a useful approach for optimising the most critical parameters in order to improve model accuracy and refine future climate predictions. In this study, we compare two different DA methods for optimising the parameters of seven plant functional types (PFTs) of the ORCHIDEE LSM using daily averaged eddy-covariance observations of net ecosystem exchange and latent heat flux at 78 sites across the globe. We perform a technical investigation of two classes of minimisation methods -- local gradient-based (the L-BFGS-B algorithm, limited memory Broyden--Fletcher--Goldfarb--Shanno algorithm with bound constraints) and global random search (the genetic algorithm) -- by evaluating their relative performance in terms of the model--data fit and the difference in retrieved parameter values. We examine the performance of each method for two cases: when optimising parameters at each site independently (``single-site'' approach) and when simultaneously optimising the model at all sites for a given PFT using a common set of parameters (``multi-site'' approach). We find that for the single site case the random search algorithm results in lower values of the cost function (i.e. lower model--data root mean square differences) than the gradient-based method; the difference between the two methods is smaller for the multi-site optimisation due to a smoothing of the cost function shape with a greater number of observations. The spread of the cost function, when performing the same tests with 16 random first-guess parameters, is much larger with the gradient-based method, due to the higher likelihood of being trapped in local minima. When using pseudo-observation tests, the genetic algorithm results in a closer approximation of the true posterior parameter value in the L-BFGS-B algorithm. We demonstrate the advantages and challenges of different DA techniques and provide some advice on using it for the LSM parameter optimisation.}
+}

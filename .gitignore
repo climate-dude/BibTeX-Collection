@@ -1,0 +1,7 @@
+# Ignore PDF files since papers may be co-mingling with .bib files
+*.pdf
+#
+# Ignore LaTeX and other files as well
+*.tex
+*.aux
+*.bbl

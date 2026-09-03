@@ -1,0 +1,13 @@
+@Article{Lacinski_IJHPCA_20260501,
+ author		= {Lukasz Lacinski and Lee Liming and Steven Turoscy and Cameron Harr and Kyle Chard and Eli Dart and Paul Durack and Sasha Ames and Forrest M. Hoffman and Ian T. Foster},
+ title		= {Automated, Reliable, and Efficient Continental-Scale Replication of 7.3 Petabytes of Climate Simulation Data: A Case Study},
+ journal	= IJHPCA,
+ volume		= 40,
+ number		= 3,
+ pages		= {421--433},
+ doi		= {10.1177/10943420261441742},
+ day		= 1,
+ month		= may,
+ year		= 2026,
+ abstract	= {We report on our experiences replicating 7.3 petabytes (PB) of Earth System Grid Federation (ESGF) computational simulation data from Lawrence Livermore National Laboratory (LLNL) in California to Argonne National Laboratory (ANL) in Illinois and Oak Ridge National Laboratory (ORNL) in Tennessee---a task motivated by a need for increased reliability, capacity, and performance. This task presented significant challenges: the need to move 29 million files twice under time pressure from aging storage hardware; a source file system bottleneck limiting throughput to 1.5 GB/s; frequent site maintenance windows; and the need for complete reliability at scale. We addressed these challenges using a simple replication tool that invoked Globus to transfer large bundles of files while tracking progress in a database, dynamically rerouting transfers to work around maintenance periods and file system limitations. Under the covers, Globus organized transfers to make efficient use of the high-speed Energy Sciences network (ESnet) and the data transfer nodes deployed at participating sites, and also addressed security, integrity checking, and recovery from a variety of transient failures. This success demonstrates the considerable benefits that can accrue from the adoption of performant data replication infrastructure. The replication tool is available at https://github.com/esgf2-us/data-replication-tools.}
+}
