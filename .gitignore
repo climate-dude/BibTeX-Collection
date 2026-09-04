@@ -5,3 +5,5 @@
 *.tex
 *.aux
 *.bbl
+*.bst
+*.awk
